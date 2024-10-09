@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<suite name="MyTestSuite">
+
+	<test name="testcases">
+
+		<classes>
+			<class name="testnglearning.DependanciesManagement"></class>
+			<class name="testnglearning.SkipATestCase"></class>
+			<class name="testnglearning.SuiteExampleManual"></class>
+			
+
+		</classes>
+		
+	</test>
+	
+
+</suite>

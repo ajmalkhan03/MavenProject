@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-10T01:34:45 IST" name="MyTestSuite" finished-at="2024-10-10T01:34:53 IST" duration-ms="8218">
+    <groups>
+    </groups>
+    <test started-at="2024-10-10T01:34:45 IST" name="testcases" finished-at="2024-10-10T01:34:53 IST" duration-ms="8218">
+      <class name="testnglearning.SuiteExampleManual">
+        <test-method signature="OpenGoogle()[pri:0, instance:testnglearning.SuiteExampleManual@3b0fe47a]" started-at="2024-10-10T01:34:45 IST" name="OpenGoogle" finished-at="2024-10-10T01:34:48 IST" duration-ms="2381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenGoogle -->
+        <test-method signature="OpenInstagram()[pri:0, instance:testnglearning.SuiteExampleManual@3b0fe47a]" started-at="2024-10-10T01:34:48 IST" name="OpenInstagram" finished-at="2024-10-10T01:34:50 IST" duration-ms="1887" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenInstagram -->
+        <test-method signature="OpenYoutube()[pri:0, instance:testnglearning.SuiteExampleManual@3b0fe47a]" started-at="2024-10-10T01:34:50 IST" name="OpenYoutube" finished-at="2024-10-10T01:34:53 IST" duration-ms="3864" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenYoutube -->
+      </class> <!-- testnglearning.SuiteExampleManual -->
+      <class name="testnglearning.DependanciesManagement">
+        <test-method signature="highschool()[pri:0, instance:testnglearning.DependanciesManagement@7674f035]" started-at="2024-10-10T01:34:45 IST" name="highschool" finished-at="2024-10-10T01:34:45 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- highschool -->
+        <test-method signature="higherSecondary()[pri:0, instance:testnglearning.DependanciesManagement@7674f035]" started-at="2024-10-10T01:34:45 IST" name="higherSecondary" finished-at="2024-10-10T01:34:45 IST" depends-on-methods="testnglearning.DependanciesManagement.highschool" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- higherSecondary -->
+        <test-method signature="engineering()[pri:0, instance:testnglearning.DependanciesManagement@7674f035]" started-at="2024-10-10T01:34:45 IST" name="engineering" finished-at="2024-10-10T01:34:45 IST" depends-on-methods="testnglearning.DependanciesManagement.higherSecondary" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- engineering -->
+      </class> <!-- testnglearning.DependanciesManagement -->
+      <class name="testnglearning.SkipATestCase">
+        <test-method signature="StartTheCar()[pri:0, instance:testnglearning.SkipATestCase@7ef82753]" started-at="2024-10-10T01:34:45 IST" name="StartTheCar" finished-at="2024-10-10T01:34:45 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartTheCar -->
+        <test-method signature="putTheFirstGear()[pri:1, instance:testnglearning.SkipATestCase@7ef82753]" started-at="2024-10-10T01:34:45 IST" name="putTheFirstGear" finished-at="2024-10-10T01:34:45 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putTheFirstGear -->
+        <test-method signature="putTheSecondtGear()[pri:2, instance:testnglearning.SkipATestCase@7ef82753]" started-at="2024-10-10T01:34:45 IST" name="putTheSecondtGear" finished-at="2024-10-10T01:34:45 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putTheSecondtGear -->
+        <test-method signature="putTheThirdGear()[pri:3, instance:testnglearning.SkipATestCase@7ef82753]" started-at="2024-10-10T01:34:45 IST" name="putTheThirdGear" finished-at="2024-10-10T01:34:45 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putTheThirdGear -->
+        <test-method signature="putTheFourthGear()[pri:4, instance:testnglearning.SkipATestCase@7ef82753]" started-at="2024-10-10T01:34:45 IST" name="putTheFourthGear" finished-at="2024-10-10T01:34:45 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putTheFourthGear -->
+      </class> <!-- testnglearning.SkipATestCase -->
+    </test> <!-- testcases -->
+  </suite> <!-- MyTestSuite -->
+</testng-results>
